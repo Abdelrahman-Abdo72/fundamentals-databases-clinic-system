@@ -13,7 +13,7 @@ app.use(express.json());
 const pool = mysql.createPool({
   host: 'localhost',
   user: 'root',         // <-- CHANGE THIS to your MySQL username
-  password: '119721134', // <-- CHANGE THIS to your MySQL password
+  password: 'YOUR_MYSQL_PASSWORD', // <-- CHANGE THIS to your MySQL password
   database: 'clinic_db' // <-- CHANGE THIS to your database name
 });
 
